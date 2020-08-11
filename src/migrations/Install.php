@@ -23,7 +23,7 @@ class Install extends Migration
             $tableOptions = 'CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB';
         }
 
-        $this->createTable(
+        /*$this->createTable(
             '{{%source_message}}',
             [
                 'id' => $this->primaryKey(),
@@ -62,7 +62,7 @@ class Install extends Migration
             'RESTRICT'
         );
         $this->createIndex('idx_source_message_category', '{{%source_message}}', 'category');
-        $this->createIndex('idx_message_language', '{{%message}}', 'language');
+        $this->createIndex('idx_message_language', '{{%message}}', 'language');*/
     }
 
     /**
