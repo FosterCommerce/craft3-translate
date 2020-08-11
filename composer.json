@@ -1,5 +1,5 @@
 {
-  "name": "FosterCommerce/translate",
+  "name": "mutation/translate",
   "description": "Translate messages in the control panel",
   "type": "craft-plugin",
   "support": {
